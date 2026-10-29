@@ -1,0 +1,29 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# IDE and user settings
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Local credentials and configuration
+.env
+.env.*
+appsettings.Local.json
+appsettings.*.local.json
+*.pfx
+*.p12
+*.key
+
+# Local logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
